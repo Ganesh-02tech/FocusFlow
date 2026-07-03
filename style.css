@@ -1,0 +1,218 @@
+body{
+    text-align: center;
+    background-color: rgb(229, 210, 183);
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 55%; 
+}
+
+#welcome{
+    font-size: 30px;
+    color: rgb(223, 15, 15);
+    margin-top: 150px;
+    margin-left:27px;
+    font-family:monospace;
+    letter-spacing: 20px;
+}
+
+#title{
+    font-size: 80px;
+    color: #643225;
+    margin-top: 20px;
+    
+}
+
+.span{
+    color: #a47e32;
+}
+
+.journey{
+    width: 400px;
+    margin: 30px 610px;
+    text-align: left;
+    font-family:'poppins', 'outfit', 'plus-jakarta-sans', 'sans-serif' , 'Georgia,Verdana' , "Segoe UI";
+}
+
+.step h3{
+    font-size: 28px;
+    margin-bottom: 1px;
+    color:#dd9520;
+}
+
+.step p{
+    font-size: 18px;
+    line-height: 0.8;
+    color:#8b0735
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.icon i{
+    font-size: 25px;
+    color:#f1c644;
+    margin-top:25px;
+    
+}
+
+.quote{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(54, 53, 56);
+}
+.quote span{
+    color: #231dd2;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5px;
+}
+   
+#start{
+    background-color: #27d85f;
+    border:2px solid #38e42b; 
+    border-radius: 50px;
+    width:270px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times, serif',"Segoe UI" , 'poppins', 'outfit', 'plus-jakarta-sans', 'sans-serif' , 'Georgia,Verdana';
+}
+#start:hover{
+    background-color: rgb(233, 168, 83); 
+    transition: 0.6s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #e09238;
+    border: 2px solid #e09238;
+}
+
+/* #start{
+    background-color: #27d85f;
+    border: 2px solid #38e42b;
+    border-radius: 30px;
+    width: 230px;
+    transition: background-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+#start:hover{
+    background-color: rgb(47, 232, 106);
+    box-shadow: 0px 0px 10px #38e42b;
+}
+
+.arrow{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+#start:hover .arrow{
+    transform: translateX(8px);
+} */
+
+.cards{
+    display: flex;
+    margin-right:50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#card1{
+    width: 350px;
+    height: 120px;
+    background-color: rgb(252, 245, 238);
+    border-radius: 20px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px #d62121;
+}
+#card1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgb(182, 253, 232);
+    BOX-shadow: 0px 0px 10px #1ad6a1;
+}
+
+#card2{
+    width: 350px;
+    height: 120px;
+    background-color: rgb(252, 245, 238);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right:auto;
+    box-shadow: 0px 0px 10px #e91c1c;
+}
+#card2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgb(178, 251, 213);
+    box-shadow: 0px 0px 10px #43f097;
+}   
+
+#card3{
+    width: 350px;
+    height: 120px;
+    background-color: rgb(252, 245, 238);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right:auto;
+    box-shadow: 0px 0px 10px #d61a1a;
+}
+#card3:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgb(165, 244, 169);
+    box-shadow: 0px 0px 10px #1ad61a;
+}
+
+#card4{
+    width: 350px;
+    height: 120px;
+    background-color: rgb(252, 245, 238);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right:auto;
+    box-shadow: 0px 0px 10px #d61a1a;
+}
+#card4:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgba(229, 210, 245, 0.901);
+    box-shadow: 0px 0px 10px #c31ee0;
+}
+
+#card5{
+    width: 350px;
+    height: 120px;
+    background-color: rgb(252, 245, 238);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right:auto;
+    box-shadow: 0px 0px 10px #d61a1a;
+}
+#card5:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgb(184, 217, 240);
+    box-shadow: 0px 0px 10px #1a7ed6;
+}
+
+p1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'poppins', 'outfit', 'plus-jakarta-sans', 'sans-serif' , 'Georgia,Verdana' , "Segoe UI";
+    margin-top: 70px;
+    margin-left: 10px;
+}
