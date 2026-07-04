@@ -96,7 +96,7 @@ body{
 #start:hover{
     background-color: rgb(233, 168, 83); 
     transition: 0.6s;
-    transform: scale(1.05);
+    transform: scale(1.22);
     box-shadow: 0px 0px 10px #e09238;
     border: 2px solid #e09238;
 }
@@ -132,22 +132,22 @@ body{
 
 #card1{
     width: 350px;
-    height: 120px;
+    height: 140px;
     background-color: rgb(252, 245, 238);
     border-radius: 20px;
     margin-left: 50px;
     box-shadow: 0px 0px 10px #d62121;
 }
 #card1:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.3);
+    transition: 0.7s;
     background-color: rgb(182, 253, 232);
     BOX-shadow: 0px 0px 10px #1ad6a1;
 }
 
 #card2{
     width: 350px;
-    height: 120px;
+    height: 140px;
     background-color: rgb(252, 245, 238);
     border-radius: 20px;
     margin-left: 50px;
@@ -155,15 +155,15 @@ body{
     box-shadow: 0px 0px 10px #e91c1c;
 }
 #card2:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.3);
+    transition: 0.7s;
     background-color: rgb(178, 251, 213);
     box-shadow: 0px 0px 10px #43f097;
 }   
 
 #card3{
-    width: 350px;
-    height: 120px;
+    width: 400px;
+    height: 140px;
     background-color: rgb(252, 245, 238);
     border-radius: 20px;
     margin-left: 50px;
@@ -171,15 +171,15 @@ body{
     box-shadow: 0px 0px 10px #d61a1a;
 }
 #card3:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.3);
+    transition: 0.7s;
     background-color: rgb(165, 244, 169);
     box-shadow: 0px 0px 10px #1ad61a;
 }
 
 #card4{
     width: 350px;
-    height: 120px;
+    height: 140px;
     background-color: rgb(252, 245, 238);
     border-radius: 20px;
     margin-left: 50px;
@@ -187,26 +187,53 @@ body{
     box-shadow: 0px 0px 10px #d61a1a;
 }
 #card4:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.3);
+    transition: 0.7s;
     background-color: rgba(229, 210, 245, 0.901);
     box-shadow: 0px 0px 10px #c31ee0;
 }
 
 #card5{
     width: 350px;
-    height: 120px;
+    height: 140px;
     background-color: rgb(252, 245, 238);
     border-radius: 20px;
     margin-left: 50px;
     margin-right:auto;
     box-shadow: 0px 0px 10px #d61a1a;
+
 }
+
 #card5:hover{
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.3);
+    transition: 0.7s;
     background-color: rgb(184, 217, 240);
     box-shadow: 0px 0px 10px #1a7ed6;
+}
+
+
+.cards #card1 icard, .cards #card2 icard, .cards #card3 icard, .cards #card4 icard, .cards #card5 icard{
+    font-size: 30px;
+    margin-left: 3px;
+    margin-right: 2px;
+    margin-top: 10px;
+    color:#ffffff;
+    width: 44px;
+    height:40px;
+    background-color: rgb(235, 129, 129);
+    border-radius: 10px;
+    padding:8px 3px 3px 3px;
+}
+
+hr{
+    width:200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+#card3line{
+    width:230px;
 }
 
 p1{
@@ -215,4 +242,9 @@ p1{
     font-family: 'poppins', 'outfit', 'plus-jakarta-sans', 'sans-serif' , 'Georgia,Verdana' , "Segoe UI";
     margin-top: 70px;
     margin-left: 10px;
+}
+p{
+    font-size: 13px;
+    font-family: 'plus-jakarta-sans', 'sans-serif' , 'Georgia,Verdana' , "Segoe UI";
+    font-weight: bold;
 }
